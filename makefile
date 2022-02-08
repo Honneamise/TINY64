@@ -9,7 +9,7 @@ clean:
 	rm -f *.prg
 
 compile:
-	$(CC) $(CFLAGS) *.c $(LDFLAGS) -o $(OUTPUT)
+	$(CC) $(CFLAGS) SRC/*.c $(LDFLAGS) -o $(OUTPUT)
 
 run:
 	x64sc -autostartprgmode 1 $(OUTPUT)

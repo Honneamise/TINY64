@@ -82,6 +82,8 @@ void ILM_init(ILM *IL)
     ILM_reset(IL);
 
     memcpy(IL->MEM, KERNEL, KERNEL_SIZE);
+
+    printf("TINY64 OK !!!");
 }
 
 /**********/
